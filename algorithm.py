@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
         # Output the results
         print("Makespan:", makespan)
-        #print("Job Completion Times:", job_completion_time)
+        print("Job Completion Times:", job_completion_time)
 
     except FileNotFoundError:
         print(f"Error: File '{input_file}' not found.")
