@@ -15,7 +15,7 @@ def generate_data(num_tasks=1001, max_time=100, max_dependencies=20, num_machine
         dict: Generated data.
     """
     # Generate random execution times for tasks
-    execution_times = [random.randint(1, max_time) for _ in range(1,num_tasks)]
+    execution_times = [random.randint(1, max_time) for _ in range(num_tasks)]
 
     # Generate random dependencies between tasks
     dependencies = []
